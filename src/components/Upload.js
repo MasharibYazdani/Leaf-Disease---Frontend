@@ -21,6 +21,7 @@ function Upload() {
       });
       const data = await response.json();
       setPrediction(data.prediction);
+      console.log(prediction);
     } catch (error) {
       console.error("Error:", error);
     }
