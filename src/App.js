@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Upload from "./components/Upload.js";
+import MainPage from "./components/MainPage.js";
+// import Upload from "./components/Upload.js";
 
 function App() {
   return (
     <div className="App">
-      <Upload />
+      <MainPage />
     </div>
   );
 }
